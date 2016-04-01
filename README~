@@ -1,0 +1,45 @@
+Name: Goudar, Nandan
+SID: 009994452
+
+References:
+
+1.http://www.csce.uark.edu/~aapon/courses/os/examples/concurrentserver.c
+
+2.http://www.prasannatech.net/search/label/C#1.Thread_Programming_in_C
+
+3.http://clinuxcode.blogspot.com/2014/02/concurrent-server-handling-multiple.html
+
+4.http://linux.die.net/man/3/strptime
+
+5.http://www.binarytides.com/socket-programming-c-linux-tutorial/
+
+6.http://www.dreamincode.net/forums
+
+7.http://www.tutorialspoint.com/c_standard_library/
+
+8.http://www.cprograms.in/Queue/
+
+9.http://williams.comp.ncat.edu/comp450
+
+how to compile
+1. go to the directory of the c file saved
+2.enter command "gcc <filename>.c -o filename" to creat executable file
+3. now execute command "./filename"
+
+
+Each program detail
+
+Program1
+	 TCP daytimed concurrent server create child process to handle each request by client and gets the date and time of server sends it after converting it in
+	MM/DD/YYYY HH:MM:SS Weekday format
+
+Program2. 
+	second program queues the string input from console by using producer thread and consumer thread is woke by producer and consumer dequeues each string 		from queue and prints the string and length of string in words (digits to word converter fucntion supports only number less than 999) and each string 		entered should not be more than 1024.
+
+Program3. 
+	Local webserver implementaion for just GET request on port 8207. this server takes only GET requests and in response sends HTML and jpg/gif files to the 		client.this code is to be run from root if files are at /home/htdocs . Server also prints statistics like Number of request, Invalaid request and Number 	of bytest of data sent. These parameters are calculated by mutex lock on the variables.
+
+
+
+
+
